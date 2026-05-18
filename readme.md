@@ -8,19 +8,47 @@ Antes de empezar a trabajar, debés descargar el proyecto en tu computadora loca
 
 1. **Abrí la terminal** (o consola de comandos) en la carpeta de tu computadora donde quieras guardar el proyecto.
 
-1. **Cloná el repositorio** ejecutando el siguiente comando:
+2. **Cloná el repositorio** ejecutando el siguiente comando:
 
     ```bash
     git clone https://github.com/santiagoverrier-neoland/practicaDOM.git
     ```
 
-1. **Ingresá a la carpeta** que se acaba de crear:
+3. **Ingresá a la carpeta** que se acaba de crear:
 
     ```bash
     cd nombre-del-repositorio
     ```
 
-1. **Abrí el proyecto** en tu editor de código.
+4. **Eliminá la referencia** al repositorio original para poder conectar el proyecto con uno propio:
+
+    ```bash
+    git remote remove origin
+    ```
+
+5. **Creá un nuevo repositorio** en tu cuenta de GitHub.
+
+    Ejemplo:
+
+    ```text
+    tp-dom-nombre-apellido
+    ```
+
+6. **Conectá el proyecto local** con tu nuevo repositorio:
+
+    ```bash
+    git remote add origin https://github.com/TU-USUARIO/tp-dom-nombre-apellido.git
+    ```
+
+7. **Abrí el proyecto** en tu editor de código.
+
+8. Cuando finalices el ejercicio, realizá los comandos necesarios para guardar y subir los cambios a GitHub.
+
+    ```bash
+    git add .
+    git commit -m "Entrega ejercicio DOM"
+    git push -u origin main
+    ```
 
 ## 📋 Consignas a realizar
 
