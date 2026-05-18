@@ -6,15 +6,21 @@ Tomando como base el código HTML provisto para la página de un producto, reali
 
 Antes de empezar a trabajar, debés descargar el proyecto en tu computadora local siguiendo estos pasos:
 
-1.**Abrí la terminal** (o consola de comandos) en la carpeta de tu computadora donde quieras guardar el proyecto.
-2.**Cloná el repositorio** ejecutando el siguiente comando (reemplazá la URL por la del repositorio del ejercicio):
+1. **Abrí la terminal** (o consola de comandos) en la carpeta de tu computadora donde quieras guardar el proyecto.
+
+1. **Cloná el repositorio** ejecutando el siguiente comando (reemplazá la URL por la del repositorio del ejercicio):
+
     ```bash
-    git clone [https://github.com/usuario/nombre-del-repositorio.git](https://github.com/usuario/nombre-del-repositorio.git)
-3.  **Ingresá a la carpeta** que se acaba de crear:
+    git clone https://github.com/usuario/nombre-del-repositorio.git
+    ```
+
+1. **Ingresá a la carpeta** que se acaba de crear:
+
     ```bash
     cd nombre-del-repositorio
     ```
-4.  **Abrí el proyecto** en tu editor de código
+
+1. **Abrí el proyecto** en tu editor de código.
 
 ## 📋 Consignas a realizar
 
